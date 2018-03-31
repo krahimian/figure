@@ -1,0 +1,41 @@
+@import 'nib'
+
+body
+    font-family 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif
+
+
+.container
+    margin 0 auto
+    border-top 1px solid #ccc
+    padding 45px 0 25px
+    &:empty
+        display none
+
+.box
+    position relative
+    font-weight 100
+    border 1px solid #444
+    border-radius 2px
+    text-align center
+    line-height 100px
+    font-size 20px
+    margin-bottom 20px
+
+#lead
+#growth
+    .box
+        line-height 150px
+        font-size 30px
+
+.box[title]:after
+    absolute top left
+    content attr(title)
+    line-height 14px
+    font-size 14px
+    padding 10px
+    color #999    
+
+.positive
+    color #18ff00
+.negative
+    color #f57070

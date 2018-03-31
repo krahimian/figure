@@ -1,0 +1,10 @@
+*.DS_Store
+
+config.js
+
+node_modules
+bower_components
+platforms
+plugins
+tmp
+www
